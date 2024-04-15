@@ -8,7 +8,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.impute import SimpleImputer
 
 # Loading the dataset
-df = pd.read_csv('C:\\Users\\shoua\\OneDrive\\Desktop\\Docker_try1\\framingham.csv')
+df = pd.read_csv('framingham.csv')
 df.columns = ['male','age','education','currentSmoker','cigsPerDay','BPMeds','prevalentStroke','prevalentHyp','diabetes','totChol','sysBP','diaBP','BMI','heartRate','glucose','TenYearCHD']
 
 # Data cleaning and manipulation
