@@ -3,4 +3,4 @@ WORKDIR /app
 COPY  main_file.py .
 RUN pip install -U scikit-learn
 EXPOSE 5000 
-CMD ["python","model.py"]
+CMD ["python","main_file.py"]
